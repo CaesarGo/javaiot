@@ -1,5 +1,5 @@
 # javaiot简介
-Javaiot是支持Http、CoAP、MQTT、MQTT-SN、Modbus,BACNet等物联网协议,专为物联网设计的高性能并发服务器。 <br/>
+Javaiot是支持Http、CoAP、MQTT、MQTT-SN、Modbus、BACNet等物联网协议，专为物联网设计的高性能并发服务器。 <br/>
 
 ## javaiot架构
 - 服务端 
@@ -8,15 +8,15 @@ Javaiot是支持Http、CoAP、MQTT、MQTT-SN、Modbus,BACNet等物联网协议,�
    - 发布/订阅等微服务组件 <br/>
    - 消息存储组件 <br/>
    - 可视化显示组件 <br/>
-   - 配置、监控组件 <br/>
+   - 配置、指标和监控组件 <br/>
 - 设备端
 
    - 嵌入式SDK（支持NB-IoT、Zigbee、LoRa、WirelessHart、蓝牙等）
 
 ##  主要功能
-- 支持多种物联网通讯协议 (HTTP, MQTT, WebSocket, CoAP, MQTT-SN、Modbus,BACNet等)
+- 支持多种物联网通讯协议 (HTTP、MQTT、WebSocket、CoAP、MQTT-SN、Modbus、BACNet等)
 - 支持发布/订阅（Pub/Sub）和点对点（P2P）消息模型 
-- 支持多种服务标准 (OPC-UA，OCF等)
+- 支持多种服务标准 (OPC-UA、OCF等)
 - 支持时间敏感网络（TSN）和QoS
 - 线性可伸缩数据存储能力
 - 分布式高可用的集群部署架构
